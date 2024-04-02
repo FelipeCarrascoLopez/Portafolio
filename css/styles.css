@@ -573,7 +573,7 @@ progress {
   display: inline-block;
 }
 .list-inline-item:not(:last-child) {
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 
 .initialism {
@@ -10899,7 +10899,7 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
+    max-width: 100rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
@@ -10969,4 +10969,18 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.btn-outline {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #495057; /* Color de contorno */
+  color: #495057; /* Color del texto */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-outline:hover {
+  background-color: #495057; /* Color de fondo al pasar el ratón */
+  color: #FFFFFF; /* Color del texto al pasar el ratón */
 }
